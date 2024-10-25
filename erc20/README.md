@@ -22,3 +22,10 @@
     **Notes :**
 
     ****The PRIVATE_KEY is included in the .env file for development purposes only. For production environments, it is recommended to use secure methods to manage sensitive information.****
+
+3. **Run the ERC20 Test (Pass/Fail) Scripts**
+
+    ```shell
+    cd erc20
+    forge test -vvvv
+    ```
